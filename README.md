@@ -13,32 +13,6 @@ This is a simple Todo application built with Vue 3 and TypeScript. It allows use
 - Toggle between light and dark themes
 - Persistent data storage using local storage
 
-## Project Structure
-
-```
-vue-todo/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── App.vue
-│   ├── main.ts
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-```
-
-- `public/`: Static assets
-- `src/assets/`: Project-specific assets such as images, fonts, etc.
-- `src/components/`: Vue components
-- `src/App.vue`: Main application component
-- `src/main.ts`: Entry point for the application
-- `index.html`: Main HTML file
-- `package.json`: Project metadata and dependencies
-- `tsconfig.json`: TypeScript configuration
-- `vite.config.ts`: Vite configuration
-
 ## Installation and Setup
 
 To run this application locally, follow these steps:
@@ -52,7 +26,7 @@ To run this application locally, follow these steps:
 
 ```bash
 git clone https://github.com/faithl3s5/vue3-todo-app.git
-cd vue-todo
+cd vue3-todo-app
 ```
 
 ### Install Dependencies
@@ -102,20 +76,6 @@ yarn build
 ```
 
 The built files will be output to the `dist` directory.
-
-### Preview the Production Build
-
-To preview the production build locally, run:
-
-```bash
-npm run preview
-```
-
-Or using yarn:
-
-```bash
-yarn preview
-```
 
 ## Usage
 
