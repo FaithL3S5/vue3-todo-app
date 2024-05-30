@@ -126,9 +126,9 @@ watch(
     </section>
 
     <section class="todo-list">
-      <h3 style="margin-bottom: 1rem">
+      <h3>
         TODO LIST - Click The ToDos Title to Edit
-        <span class="filters">
+        <span class="filters" style="float: right">
           <label>
             <input type="checkbox" v-model="showDoneOnly" />
             <span class="bubble check personal"></span>
