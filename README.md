@@ -2,6 +2,8 @@
 
 This is a simple Todo application built with Vue 3 and TypeScript. It allows users to create, edit, delete, and filter todo items. The application supports light and dark themes and stores data in the browser's local storage. This project was adapted from a tutorial by [Tyler Potts](https://youtu.be/qhjxAP1hFuI) huge thanks to that video for showing me the ropes.
 
+You may checkout the deployed app on: https://faithl3s5.github.io/vue3-todo-app/
+
 ## Features
 
 - Create new todo items
